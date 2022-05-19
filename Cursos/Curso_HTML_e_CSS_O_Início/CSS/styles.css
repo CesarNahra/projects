@@ -1,0 +1,122 @@
+h1{
+    color: blueviolet;
+    font-size: 60px;
+    font-family: Arial;
+}
+
+.div-background{
+    background-image: url('img/por-do-sol.jpg');
+    height: 1000px;
+}
+
+.family{
+    font-family: Arial;
+    text-align: center;
+}
+
+.pika{
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+    font-family: Arial;
+    margin: 0;
+}
+
+h2{
+    text-align: center;
+    font-size: 100px;
+    color: chocolate;
+}
+
+body{
+    margin: 0;
+}
+
+.box-model{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    padding: 20px;
+    border: 20px solid blue;
+}
+
+.div-position{
+    width: 400px;
+    height: 400px;
+    background-color:red ;
+    border: 1px dotted black;
+}
+
+.static{
+    position: static;
+}
+
+.relative{
+    position: relative;
+    background-color: blue;
+    top: 100px;
+    left: 50px;
+}
+
+.absolute{
+    position: absolute;
+    background-color: yellow;
+    right: 0;
+    top: 0;
+}
+
+.fixed{
+    position: fixed;
+    background-color: purple;
+    bottom: 0;
+    right: 0;
+}
+
+.sticky{
+    position: sticky;
+    background-color: aqua;
+    top: 0px;
+}
+
+.pixel-1{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+.pixel-2{
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+}
+
+.pai-porcentagem{
+    height: 500px;
+    width: 500px;
+    background-color: #000;
+}
+
+.porcentagem-1{
+    width: 50%;
+    height: 50%;
+    background-color: yellow;
+}
+
+.pai-em{
+    font-size: 50px;
+}
+
+
+.em-1{
+    width: 2em;
+    height: 2em;
+    background-color: purple;
+}
+
+.rem-1{
+    height: 5rem;
+    width: 5rem;
+    background-color:green;
+}
